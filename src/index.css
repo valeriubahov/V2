@@ -1,13 +1,62 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 0px;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a192f;
+  color: #8892b0;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #8892b0 #0a192f;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0a192f;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8892b0;
+  border-radius: 20px;
+  border: 3px solid #0a192f;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.social-icon-hover:hover {
+  background-color: #64ffda !important;
+  border-radius: 50%;
+  border: 1px solid #64ffda;
+  color: #64ffda !important;
+  fill: #64ffda !important;
+  width: 30px !important;
+  height: 30px !important;
+  transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+svg.my-custom-class {
+  fill: #64ffda;
 }
