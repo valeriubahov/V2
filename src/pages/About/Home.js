@@ -18,7 +18,7 @@ class About extends React.Component {
           <Unscrollable>
             <Paragraph>Hello, My name is <SpanColored>Valeriu</SpanColored> and I love creating websites and applications. </Paragraph>
             <Paragraph>I'm a <SpanColored>Full Stack Developer</SpanColored> located in Canada. I have a serious passion for computers, software and everything related to the IT world. </Paragraph>
-            <Paragraph><SpanColored>Fast-learner</SpanColored> and well-organized person, problem solver, indipendent employee with high attention to details. Lover of animals, snowboarding, videogames, films and TV series.</Paragraph>
+            <Paragraph><SpanColored>Fast-learner</SpanColored> and well-organized person, problem solver, indipendent employee with high attention to details. I love animals, snowboarding, videogames, films and TV series.</Paragraph>
             <Paragraph><SpanColored>Interested</SpanColored> in the entire development spectrum and working on ambitious projects with positive people.</Paragraph>
             <Paragraph>Here are a few technologies I’ve been working with recently:</Paragraph>
             <div>
