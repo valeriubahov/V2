@@ -123,6 +123,7 @@ margin-inline-end: 0px;
 box-sizing: inherit;
 color: #a8b2d1;
 font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+margin: 0;
 `;
 
 
