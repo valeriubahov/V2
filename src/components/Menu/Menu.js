@@ -27,7 +27,7 @@ const TopMenu = ({ user }) => {
           </Li>
         ))}
         <Li_Resume>
-          <a href="https://drive.google.com/open?id=1EafRTLOaEbjYBgckBIfArwJmMjRC241J" target="_blank">
+          <a href="https://drive.google.com/file/d/1zJ3g94vAaxWuhOHUP-ZFk7LdzE890b0q/view?usp=sharing" target="_blank">
             View Resume
           </a>
         </Li_Resume>
