@@ -52,7 +52,7 @@ const MenuMobile = () => {
         </NavLink>
 
 
-        <NavResume href={`https://drive.google.com/file/d/1zJ3g94vAaxWuhOHUP-ZFk7LdzE890b0q/view?usp=sharing`}>
+        <NavResume href={`https://drive.google.com/file/d/1-N8J8FYS7B3THgiS51gT9T5AIaxxegZo/view?usp=sharing`}>
           <NavButton>
             <Document32 aria-label="About Me" className="my-custom-class" />
 
